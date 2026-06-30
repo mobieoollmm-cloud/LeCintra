@@ -24,13 +24,14 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; overflow-x: hidden; width: 100%; }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background: var(--bg-dark);
   color: var(--text-primary);
   overflow-x: hidden;
+  width: 100%;
   line-height: 1.7;
 }
 
@@ -301,7 +302,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .title-cintra {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(5rem, 14vw, 11rem);
+  font-size: clamp(3.5rem, 12vw, 11rem);
   font-weight: 600;
   color: #fff;
   letter-spacing: -0.02em;
@@ -1476,6 +1477,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .footer-bottom .container { flex-direction: column; text-align: center; }
   .story-badge { width: 100px; height: 100px; right: -1rem; bottom: -1rem; }
   .badge-year { font-size: 1.5rem; }
+  
+  /* Disable complex popups on mobile to avoid overflow issues */
+  .mc-hover-popup { display: none !important; }
+  .menu-card:hover .mc-thumb { width: 110px; }
 }
 
 @media (max-width: 480px) {
