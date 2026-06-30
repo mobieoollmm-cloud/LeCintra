@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Cintra â€” Since 1921 | Oran, Algeria</title>
+  <meta name="description" content="Le Cintra is Oran's most iconic restaurant since 1921. Discover exquisite Mediterranean and French cuisine in a legendary setting, frequented by Albert Camus himself." />
+  <meta property="og:title" content="Le Cintra â€” Since 1921 | Oran, Algeria" />
+  <meta property="og:description" content="A legendary restaurant in the heart of Oran. Mediterranean and French cuisine, fine dining, elegant lounge." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+  <div class="custom-cursor-dot" id="custom-cursor-dot"></div>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-content">
+      <span class="logo-le">Le</span>
+      <span class="logo-cintra">Cintra</span>
+    </div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-le">Le</span>
+        <span class="logo-cintra">Cintra</span>
+        <span class="logo-year">Est. 1921</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="#story" class="nav-link" id="nav-story">Our Story</a></li>
+        <li><a href="#menu" class="nav-link" id="nav-menu">Menu</a></li>
+        <li><a href="#gallery" class="nav-link" id="nav-gallery">Gallery</a></li>
+        <li><a href="#lounge" class="nav-link" id="nav-lounge">Lounge</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" id="nav-reserve-btn">Reserve a Table</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="restaurant_interior_1782835822438.jpg" alt="Le Cintra elegant interior" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-subtitle animate-fade-up">Since 1921 Â· Oran, Algeria</p>
+      <h1 class="hero-title animate-fade-up delay-1">
+        <span class="title-le">Le</span>
+        <span class="title-cintra">Cintra</span>
+      </h1>
+      <p class="hero-tagline animate-fade-up delay-2">Where History Meets Haute Cuisine</p>
+      <div class="hero-divider animate-fade-up delay-3"></div>
+      <p class="hero-desc animate-fade-up delay-4">A century of culinary excellence in the heart of Oran â€” Mediterranean flavours, French elegance, timeless memories.</p>
+      <div class="hero-actions animate-fade-up delay-5">
+        <a href="#menu" class="btn-primary" id="hero-menu-btn">Explore Our Menu</a>
+        <a href="#story" class="btn-outline" id="hero-story-btn">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-scroll" id="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-number" data-target="100">0</span>
+        <span class="stat-suffix">+</span>
+        <span class="stat-label">Years of Heritage</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="2">0</span>
+        <span class="stat-suffix"></span>
+        <span class="stat-label">Floors of Experience</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="1921">0</span>
+        <span class="stat-suffix"></span>
+        <span class="stat-label">Year Founded</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="1">0</span>
+        <span class="stat-suffix"></span>
+        <span class="stat-label">Legendary Address</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-images">
+          <div class="story-img-main">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1024&auto=format&fit=crop" alt="Le Cintra Exterior" class="story-img main-img" />
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1024&auto=format&fit=crop" alt="Le Cintra Lounge" class="story-img accent-img" />
+            <div class="story-badge">
+              <span class="badge-year">1921</span>
+              <span class="badge-text">A Legend<br/>Born</span>
+            </div>
+          </div>
+        </div>
+        <div class="story-content">
+          <p class="section-label">Our Heritage</p>
+          <h2 class="section-title">A Century of<br/><em>Culinary Legacy</em></h2>
+          <div class="story-divider"></div>
+          <p class="story-text">Founded in 1921, Le Cintra stands as one of Oran's most prestigious and storied institutions. Over a century, this beloved restaurant has witnessed history unfold â€” from Algeria's vibrant colonial era to its glorious independence and beyond.</p>
+          <p class="story-text">Among its distinguished guests was the Nobel Prizeâ€“winning author <strong>Albert Camus</strong>, who frequented these very halls, drawing inspiration from the warmth and spirit of Oran that would shape his greatest works.</p>
+          <p class="story-text">Lovingly renovated and reopened in 2014, Le Cintra continues its tradition of excellence â€” now spanning two floors of refined dining and elegant lounging, where every meal is an event.</p>
+          <div class="story-tags">
+            <span class="tag">Mediterranean</span>
+            <span class="tag">French Cuisine</span>
+            <span class="tag">Fine Dining</span>
+            <span class="tag">Historic Venue</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="menu-bg-overlay"></div>
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label light">Our Cuisine</p>
+        <h2 class="section-title light">Crafted with <em>Passion</em></h2>
+        <p class="section-subtitle">Each dish is a story of flavour â€” fresh Mediterranean ingredients elevated by French culinary artistry.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-tab="starters" id="tab-starters">Starters</button>
+        <button class="menu-tab" data-tab="mains" id="tab-mains">Main Courses</button>
+        <button class="menu-tab" data-tab="seafood" id="tab-seafood">Seafood</button>
+        <button class="menu-tab" data-tab="desserts" id="tab-desserts">Desserts</button>
+      </div>
+
+      <div class="menu-panels">
+        <!-- Starters -->
+        <div class="menu-panel active" id="panel-starters">
+          <div class="menu-grid">
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1572695157366-5e58562b6e9e?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Bruschetta MÃ©diterranÃ©enne</h3>
+                    <span class="price">850 DZD</span>
+                  </div>
+                  <p>Toasted artisan bread, heirloom tomatoes, fresh basil, aged olive oil and sea salt</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1572695157366-5e58562b6e9e?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Starter</span>
+                  <h4>Bruschetta MÃ©diterranÃ©enne</h4>
+                  <p>Toasted artisan bread, heirloom tomatoes, fresh basil, aged olive oil and sea salt</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">850 DZD</span>
+                    <span class="mc-popup-tag">Vegetarian</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Soupe de Poisson</h3>
+                    <span class="price">1,200 DZD</span>
+                  </div>
+                  <p>Classic ProvenÃ§al fish soup with rouille, croutons and grated GruyÃ¨re</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Starter</span>
+                  <h4>Soupe de Poisson</h4>
+                  <p>Classic ProvenÃ§al fish soup with rouille, croutons and grated GruyÃ¨re</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">1,200 DZD</span>
+                    <span class="mc-popup-tag">Signature</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Salade NiÃ§oise</h3>
+                    <span class="price">950 DZD</span>
+                  </div>
+                  <p>Tuna, hard-boiled egg, olives, green beans, anchovies and Dijon vinaigrette</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Starter</span>
+                  <h4>Salade NiÃ§oise</h4>
+                  <p>Tuna, hard-boiled egg, olives, green beans, anchovies and Dijon vinaigrette</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">950 DZD</span>
+                    <span class="mc-popup-tag">Fresh</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1533173775010-098555239563?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Plateau de Charcuterie</h3>
+                    <span class="price">1,500 DZD</span>
+                  </div>
+                  <p>Artisan cured meats, aged cheeses, cornichons, fig jam and rustic bread</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1533173775010-098555239563?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Starter</span>
+                  <h4>Plateau de Charcuterie</h4>
+                  <p>Artisan cured meats, aged cheeses, cornichons, fig jam and rustic bread</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">1,500 DZD</span>
+                    <span class="mc-popup-tag">Sharing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-panel" id="panel-mains">
+          <div class="menu-grid">
+
+            <div class="menu-card featured" tabindex="0">
+              <span class="card-badge">Chef's Choice</span>
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>CÃ´telettes d'Agneau</h3>
+                    <span class="price">3,200 DZD</span>
+                  </div>
+                  <p>Herb-crusted lamb chops, rosemary au jus, gratin dauphinois and seasonal vegetables</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Main Course</span>
+                  <h4>CÃ´telettes d'Agneau</h4>
+                  <p>Herb-crusted lamb chops, rosemary au jus, gratin dauphinois and seasonal vegetables</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">3,200 DZD</span>
+                    <span class="mc-popup-tag">Chef's Choice</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Poulet RÃ´ti AlgÃ©rois</h3>
+                    <span class="price">2,400 DZD</span>
+                  </div>
+                  <p>Free-range roasted chicken with chermoula spices, lemon preserve and saffron rice</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Main Course</span>
+                  <h4>Poulet RÃ´ti AlgÃ©rois</h4>
+                  <p>Free-range roasted chicken with chermoula spices, lemon preserve and saffron rice</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">2,400 DZD</span>
+                    <span class="mc-popup-tag">Local Favourite</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>EntrecÃ´te GrillÃ©e</h3>
+                    <span class="price">3,800 DZD</span>
+                  </div>
+                  <p>Prime rib-eye steak, maÃ®tre d'hÃ´tel butter, pommes frites and green salad</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Main Course</span>
+                  <h4>EntrecÃ´te GrillÃ©e</h4>
+                  <p>Prime rib-eye steak, maÃ®tre d'hÃ´tel butter, pommes frites and green salad</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">3,800 DZD</span>
+                    <span class="mc-popup-tag">Premium Cut</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1627710975618-202a647d6a2f?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Tajine Oranais</h3>
+                    <span class="price">2,800 DZD</span>
+                  </div>
+                  <p>Slow-cooked veal with preserved lemons, olives, fragrant spices and couscous</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1627710975618-202a647d6a2f?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Main Course</span>
+                  <h4>Tajine Oranais</h4>
+                  <p>Slow-cooked veal with preserved lemons, olives, fragrant spices and couscous</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">2,800 DZD</span>
+                    <span class="mc-popup-tag">Algerian Heritage</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Seafood -->
+        <div class="menu-panel" id="panel-seafood">
+          <div class="menu-grid">
+
+            <div class="menu-card featured" tabindex="0">
+              <span class="card-badge">Signature</span>
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1615141982883-c7da0e69f563?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Loup de Mer GrillÃ©</h3>
+                    <span class="price">3,500 DZD</span>
+                  </div>
+                  <p>Whole grilled sea bass with fennel, lemon, capers and beurre blanc sauce</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1615141982883-c7da0e69f563?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Seafood</span>
+                  <h4>Loup de Mer GrillÃ©</h4>
+                  <p>Whole grilled sea bass with fennel, lemon, capers and beurre blanc sauce</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">3,500 DZD</span>
+                    <span class="mc-popup-tag">Signature</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1625944535452-51c360938f32?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Crevettes FlambÃ©es</h3>
+                    <span class="price">3,000 DZD</span>
+                  </div>
+                  <p>Tiger prawns flambÃ©ed in cognac, garlic butter, fresh herbs and crusty bread</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1625944535452-51c360938f32?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Seafood</span>
+                  <h4>Crevettes FlambÃ©es</h4>
+                  <p>Tiger prawns flambÃ©ed in cognac, garlic butter, fresh herbs and crusty bread</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">3,000 DZD</span>
+                    <span class="mc-popup-tag">FlambÃ©</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1599487488170-d11ec9c172f3?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Calamars ProvenÃ§aux</h3>
+                    <span class="price">2,600 DZD</span>
+                  </div>
+                  <p>Tender squid in tomato-herb sauce with saffron, olives and olive oil</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1599487488170-d11ec9c172f3?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Seafood</span>
+                  <h4>Calamars ProvenÃ§aux</h4>
+                  <p>Tender squid in tomato-herb sauce with saffron, olives and olive oil</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">2,600 DZD</span>
+                    <span class="mc-popup-tag">Mediterranean</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1616643265147-38e210134f9e?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Plateau de Fruits de Mer</h3>
+                    <span class="price">5,500 DZD</span>
+                  </div>
+                  <p>A grand platter of oysters, prawns, clams, crab claws and sea urchin</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1616643265147-38e210134f9e?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Seafood</span>
+                  <h4>Plateau de Fruits de Mer</h4>
+                  <p>A grand platter of oysters, prawns, clams, crab claws and sea urchin</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">5,500 DZD</span>
+                    <span class="mc-popup-tag">Grand Platter</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-panel" id="panel-desserts">
+          <div class="menu-grid">
+
+            <div class="menu-card featured" tabindex="0">
+              <span class="card-badge">Must Try</span>
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1557310329-10656e413009?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>CrÃ¨me BrÃ»lÃ©e Maison</h3>
+                    <span class="price">900 DZD</span>
+                  </div>
+                  <p>Classic vanilla crÃ¨me brÃ»lÃ©e with caramelized sugar top and fresh seasonal berries</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1557310329-10656e413009?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Dessert</span>
+                  <h4>CrÃ¨me BrÃ»lÃ©e Maison</h4>
+                  <p>Classic vanilla crÃ¨me brÃ»lÃ©e with caramelized sugar top and fresh seasonal berries</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">900 DZD</span>
+                    <span class="mc-popup-tag">Must Try</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Tarte Tatin</h3>
+                    <span class="price">850 DZD</span>
+                  </div>
+                  <p>Upside-down caramelized apple tart with a buttery pastry and crÃ¨me fraÃ®che</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Dessert</span>
+                  <h4>Tarte Tatin</h4>
+                  <p>Upside-down caramelized apple tart with a buttery pastry and crÃ¨me fraÃ®che</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">850 DZD</span>
+                    <span class="mc-popup-tag">French Classic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1519676867240-5970925058d1?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Baklava au Miel</h3>
+                    <span class="price">700 DZD</span>
+                  </div>
+                  <p>Layers of crisp filo pastry, pistachios and walnuts drenched in orange blossom honey</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1519676867240-5970925058d1?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Dessert</span>
+                  <h4>Baklava au Miel</h4>
+                  <p>Layers of crisp filo pastry, pistachios and walnuts drenched in orange blossom honey</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">700 DZD</span>
+                    <span class="mc-popup-tag">Algerian Heritage</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu-card" tabindex="0">
+              <div class="mc-inner">
+                <div class="mc-thumb" style="background-image:url('https://images.unsplash.com/photo-1548943487-a2e4e43b6857?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-body">
+                  <div class="menu-card-header">
+                    <h3>Mousse au Chocolat</h3>
+                    <span class="price">800 DZD</span>
+                  </div>
+                  <p>Silky dark chocolate mousse with gold leaf, sea salt caramel and hazelnut praline</p>
+                </div>
+              </div>
+              <div class="mc-hover-popup" aria-hidden="true"><div class="mc-popup-scan"></div>
+                <div class="mc-popup-img" style="background-image:url('https://images.unsplash.com/photo-1548943487-a2e4e43b6857?q=80&w=800&auto=format&fit=crop')"></div>
+                <div class="mc-popup-body">
+                  <span class="mc-popup-category">Dessert</span>
+                  <h4>Mousse au Chocolat</h4>
+                  <p>Silky dark chocolate mousse with gold leaf, sea salt caramel and hazelnut praline</p>
+                  <div class="mc-popup-footer">
+                    <span class="mc-popup-price">800 DZD</span>
+                    <span class="mc-popup-tag">Indulgent</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Visual Journey</p>
+        <h2 class="section-title">A Feast for <em>the Eyes</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large" id="gal-1">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1024&auto=format&fit=crop" alt="Le Cintra elegant dining room" />
+          <div class="gallery-overlay"><span>The Dining Room</span></div>
+        </div>
+        <div class="gallery-item" id="gal-2">
+          <img src="https://images.unsplash.com/photo-1615141982883-c7da0e69f563?q=80&w=800&auto=format&fit=crop" alt="Grilled sea bass" />
+          <div class="gallery-overlay"><span>Seafood</span></div>
+        </div>
+        <div class="gallery-item" id="gal-3">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" alt="Lamb chops" />
+          <div class="gallery-overlay"><span>Grilled Meats</span></div>
+        </div>
+        <div class="gallery-item" id="gal-4">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" alt="Restaurant exterior" />
+          <div class="gallery-overlay"><span>Our Facade</span></div>
+        </div>
+        <div class="gallery-item" id="gal-5">
+          <img src="https://images.unsplash.com/photo-1557310329-10656e413009?q=80&w=800&auto=format&fit=crop" alt="CrÃ¨me brÃ»lÃ©e dessert" />
+          <div class="gallery-overlay"><span>Desserts</span></div>
+        </div>
+        <div class="gallery-item" id="gal-6">
+          <img src="lounge_bar_1782835877792.jpg" alt="Elegant lounge" />
+          <div class="gallery-overlay"><span>The Lounge</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lounge Section -->
+  <section class="lounge-section" id="lounge">
+    <div class="lounge-bg">
+      <img src="lounge_bar_1782835877792.jpg" alt="Le Cintra lounge" />
+      <div class="lounge-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="lounge-content">
+        <p class="section-label light">First Floor</p>
+        <h2 class="section-title light">The <em>Lounge</em></h2>
+        <div class="story-divider light"></div>
+        <p class="lounge-text">Ascend to our elegant first-floor lounge, where the atmosphere shifts from restaurant bustle to intimate sophistication. Sink into our velvet seating, sip expertly crafted cocktails, and enjoy curated small plates in a setting that feels like Oran's best-kept secret.</p>
+        <ul class="lounge-features">
+          <li id="feat-cocktails">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 2l4 5 4-5M4 7h16l-2 10H6L4 7zM12 17v4M8 21h8"/></svg>
+            <span>Signature Cocktails</span>
+          </li>
+          <li id="feat-jazz">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18V5l12-2v13M9 9l12-2M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm12-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+            <span>Live Jazz Evenings</span>
+          </li>
+          <li id="feat-private">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span>Private Events</span>
+          </li>
+          <li id="feat-view">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12S5 4 12 4s11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            <span>City Views</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Guest Voices</p>
+        <h2 class="section-title">What Our Guests <em>Say</em></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" id="review-1">
+          <div class="quote-mark">"</div>
+          <p>A true Oran institution. The sea bass was impeccable, and the atmosphere transported me to a different era. Le Cintra is where memories are made.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #c9a227, #8b6914);">YB</div>
+            <div>
+              <strong>Yacine Bensalem</strong>
+              <span>â­â­â­â­â­</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-2">
+          <div class="quote-mark">"</div>
+          <p>The lamb chops were a revelation â€” perfectly cooked, beautifully presented. The service was attentive without being intrusive. Simply magnificent.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #7c4a85, #3d1f45);">SK</div>
+            <div>
+              <strong>Samia Khelil</strong>
+              <span>â­â­â­â­â­</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" id="review-3">
+          <div class="quote-mark">"</div>
+          <p>I've dined across the Mediterranean and few restaurants match the elegance of Le Cintra. History seeps through the walls, and the food lives up to the legend.</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #1a6b3a, #0d3d20);">PM</div>
+            <div>
+              <strong>Pierre Marchand</strong>
+              <span>â­â­â­â­â­</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Come Visit</p>
+        <h2 class="section-title">Find Us & <em>Reserve</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-card" id="info-address">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>14 Boulevard de la Soummam<br/>Oran, Algeria</p>
+            </div>
+          </div>
+          <div class="info-card" id="info-phone">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.07 6.07l.96-1.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+213413610854">+213 41 36 10 54</a><br/><a href="tel:+213412912816">+213 41 29 12 16</a></p>
+            </div>
+          </div>
+          <div class="info-card" id="info-hours">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Sat â€“ Thu: 12:00 â€“ 23:00<br/>Friday: Closed</p>
+            </div>
+          </div>
+          <div class="info-card" id="info-cuisine">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+            <div>
+              <h4>Cuisine</h4>
+              <p>Mediterranean Â· French<br/>Algerian Â· Fine Dining</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reservation Form -->
+        <div class="reservation-form">
+          <h3>Reserve Your Table</h3>
+          <form id="reservationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="res-name">Full Name</label>
+                <input type="text" id="res-name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="res-phone">Phone</label>
+                <input type="tel" id="res-phone" name="phone" placeholder="+213 xxx xxx xxx" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="res-date">Date</label>
+                <input type="date" id="res-date" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="res-time">Time</label>
+                <select id="res-time" name="time" required>
+                  <option value="">Select time</option>
+                  <option>12:00</option>
+                  <option>12:30</option>
+                  <option>13:00</option>
+                  <option>13:30</option>
+                  <option>14:00</option>
+                  <option>19:00</option>
+                  <option>19:30</option>
+                  <option>20:00</option>
+                  <option>20:30</option>
+                  <option>21:00</option>
+                  <option>21:30</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="res-guests">Number of Guests</label>
+              <div class="guest-counter">
+                <button type="button" class="counter-btn" id="guest-minus" aria-label="Decrease guests">âˆ’</button>
+                <span id="guest-count">2</span>
+                <button type="button" class="counter-btn" id="guest-plus" aria-label="Increase guests">+</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="res-notes">Special Requests</label>
+              <textarea id="res-notes" name="notes" rows="3" placeholder="Allergies, celebrations, seating preferencesâ€¦"></textarea>
+            </div>
+            <button type="submit" class="btn-primary full" id="submit-reservation">Confirm Reservation</button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">âœ“</div>
+            <h4>Reservation Received!</h4>
+            <p>We'll confirm your booking within 24 hours. <em>Ã€ bientÃ´t!</em></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map Embed placeholder -->
+      <div class="map-container">
+        <div class="map-placeholder" id="map-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <p>14 Boulevard de la Soummam, Oran, Algeria</p>
+          <a href="https://maps.google.com/?q=Le+Cintra+Oran+Algeria" target="_blank" rel="noopener" class="btn-outline small" id="map-directions-btn">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-le">Le</span>
+            <span class="logo-cintra">Cintra</span>
+          </div>
+          <p class="footer-tagline">A century of taste,<br/>a lifetime of memories.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" id="social-fb" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-ig" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-tw" aria-label="Twitter/X">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#lounge">Lounge</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Experience</h5>
+          <ul>
+            <li><a href="#menu">Ã€ la Carte</a></li>
+            <li><a href="#lounge">Lounge Bar</a></li>
+            <li><a href="#contact">Private Events</a></li>
+            <li><a href="#contact">Group Dining</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contact</h5>
+          <p>14 Boulevard de la Soummam<br/>Oran, Algeria</p>
+          <a href="tel:+213413610854">+213 41 36 10 54</a>
+          <br/>
+          <a href="tel:+213412912816">+213 41 29 12 16</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Â© 2025 Le Cintra Â· All Rights Reserved Â· Oran, Algeria</p>
+        <p>Est. 1921 â€” A Legacy of Taste</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky CTA -->
+  <div class="mobile-sticky-cta" id="mobile-sticky-cta">
+    <a href="#contact" class="btn-primary full">Reserve a Table</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
